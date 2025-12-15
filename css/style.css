@@ -412,7 +412,7 @@ footer p {
     width: 60px;
     height: 60px;
 }
-@media (max-width: 1620px) {
+@media (max-width: 760px) {
     .header {
         display: flex;
         flex-direction: column;
@@ -454,7 +454,7 @@ footer p {
         width: 170px;
     }
     .ab {
-    margin: -18rem 0rem 0rem 2rem; 
+    margin: -13rem 0rem 0rem 2rem; 
     padding: 0 1rem;
     font-size: 1rem;
     aspect-ratio: none;
