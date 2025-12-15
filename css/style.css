@@ -412,7 +412,7 @@ footer p {
     width: 60px;
     height: 60px;
 }
-@media (min-width: 768px) {
+@media screen and  (min-width: 768px) anc {
     .header {
         display: flex;
         flex-direction: column;
