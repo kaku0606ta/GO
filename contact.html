@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&family=Klee+One&family=M+PLUS+2:wght@100..900&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <title>お問い合わせ</title>
+</head>
+<body>
+    <div class="header">
+        <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="img/go.png" alt=""></a></h1>
+        </header>
+    <button class="hamburger-overlay" aria-label="メニュー" aria-controls="overlay-menu" aria-expanded="false">
+    <span class="hamburger-overlay__line"></span>
+    <span class="hamburger-overlay__line"></span>
+    <span class="hamburger-overlay__line"></span>
+    </button>
+    <nav id="overlay-menu" class="nav-overlay" aria-hidden="true">
+        <div class="nav-overlay__content">
+            <ul class="nav-overlay__list">
+                <li class="nav-overlay__item"><a href="index.html" class="nav-overlay__link">ホーム</a></li>
+                <li class="nav-overlay__item"><a href="index.html" class="nav-overlay__link">GOランドとは？</a></li>
+                <li class="nav-overlay__item"><a href="index.html" class="nav-overlay__link">GOランドでできること</a></li>
+                <li class="nav-overlay__item"><a href="contact.html" class="nav-overlay__link">お問い合わせ</a></li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+<div class="Form">
+    <h2>お問い合わせフォーム</h2>
+<div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>氏名</p>
+    <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+    </div>
+<div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+    <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+    </div>
+<div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+    <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+</div>
+<div class="Form-Item">
+    <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+    <textarea class="Form-Item-Textarea"></textarea>
+</div>
+    <input type="submit" class="Form-Btn" value="送信する">
+</div>
+    <footer><p>2025  GO land</p></footer>
+    <script src="js/overlay-script.js"></script>
+</body>
+</html>
